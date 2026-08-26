@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Мета-теги для Астаны -->
+    <title>Прикурить авто в Астане от 4000 тг — Срочный выезд от 15 минут</title>
+    <meta name="description" content="Сел аккумулятор в Астане? Поможем срочно прикурить автомобиль бустером 12V/24V. Быстрый выезд мастера во все районы: Есиль, Алматы, Байконур, Сарыарка, Нура. Звоните круглосуточно!">
+    <meta name="keywords" content="прикурить авто астана, завести машину астана, сел аккумулятор помощь астана, прикурить бустером астана, вызвать мастера прикурить автомобиль астана, техпомощь на дороге астана">
+    
+    <style>
+        :root {
+            --main-color: #ffcc00;
+            --dark-color: #1a1a1a;
+            --light-color: #f4f4f4;
+            --text-color: #333;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--dark-color);
+            color: #fff;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+            color: var(--main-color);
+        }
+
+        .phone-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            background: #25d366;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('https://unsplash.com') no-repeat center center/cover;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: var(--main-color);
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn-main {
+            display: inline-block;
+            background-color: var(--main-color);
+            color: var(--dark-color);
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 15px rgba(255,204,0,0.4);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .features {
+            padding: 40px 20px;
+            background: #fff;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--light-color);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid var(--main-color);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .prices {
+            padding: 40px 20px;
+        }
+
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .price-table th, .price-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .price-table th {
+            background-color: var(--dark-color);
+            color: #fff;
+        }
+
+        .districts {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .district-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .tag {
+            background: var(--light-color);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            font-weight: 500;
+        }
+
+        footer {
+            background: var(--dark-color);
+            color: #ccc;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+        }
+
+        .mobile-call-btn {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #25d366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+            display: none;
+            z-index: 9999;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 26px; }
+            .hero p { font-size: 16px; }
+            header .phone-link { display: none; }
+            .mobile-call-btn { display: block; }
+            body { padding-bottom: 60px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <div class="logo">⚡ АвтоПомощь Астана</div>
+        <a href="tel:+77760742322" class="phone-link">📞 Вызвать мастера</a>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <h1>Срочно прикурим авто в Астане</h1>
+        <p>Сел аккумулятор? Левый или Правый берег — приедем через 15-20 минут с мощным профессиональным бустером. Безопасно для электроники!</p>
+        <a href="tel:+77760742322" class="btn-main">ПОЗВОНИТЬ</a>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="features">
+        <h2 class="section-title">Почему выбирают нас</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>⏱ Оперативный выезд</h3>
+                <p>Мастера распределены по городу. Быстро доберемся в любую точку Астаны, даже в час пик.</p>
+            </div>
+            <div class="card">
+                <h3>🔋 Безопасный запуск 12V/24V</h3>
+                <p>Заводим профессиональными пусковыми устройствами. Безопасно для бортового компьютера автомобиля.</p>
+            </div>
+            <div class="card">
+                <h3>🚗 Любой транспорт</h3>
+                <p>Работаем с легковыми авто, кроссоверами, а также коммерческим транспортом и микроавтобусами.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Районы выезда (Важно для SEO) -->
+    <section class="districts">
+        <h2 class="section-title">Работаем во всех районах Астаны</h2>
+        <p>Выезжаем на дом, на парковки торговых центров, во дворы и на трассу:</p>
+        <div class="district-tags">
+            <span class="tag">Район Есиль</span>
+            <span class="tag">Район Нура</span>
+            <span class="tag">Район Алматы</span>
+            <span class="tag">Район Байконур</span>
+            <span class="tag">Район Сарыарка</span>
+            <span class="tag">Левый берег</span>
+            <span class="tag">Правый берег</span>
+        </div>
+    </section>
+
+    <!-- Цены -->
+    <section class="prices">
+        <h2 class="section-title">Стоимость услуг в Астане</h2>
+        <table class="price-table">
+            <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Прикурить легковой автомобиль (12V)</td>
+                    <td>от 4 000 тг</td>
+                </tr>
+                <tr>
+                    <td>Запуск внедорожника / кроссовера / минивэна</td>
+                    <td>от 5 000 тг</td>
+                </tr>
+                <tr>
+                    <td>Запуск на подземном паркинге (длинные провода/бустер)</td>
+                    <td>от 6 000 тг</td>
+                </tr>
+                <tr>
+                    <td>Выезд за пределы города (ближний пригород)</td>
+                    <td>договорная</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Текст для поисковых систем (SEO) -->
+    <section class="features" style="background: var(--light-color);">
+        <h2 class="section-title">Услуга прикурить автомобиль в Астане круглосуточно</h2>
+        <p style="max-width: 800px; margin: 0 auto; text-align: center; font-size: 16px; color: #555;">
+            Зимой в Астане из-за сильных морозов или оставленных включенными фар часто разряжается аккумулятор. Не рискуйте «прикуривать» от случайных машин — это может сжечь дорогую электронику вашего авто. Наша служба использует безопасные портативные бустеры. Мы оперативно выезжаем в <strong>Есильский, Нуринский, Алматинский, Сарыаркинский и Байконурский районы</strong>. Мастер приедет со своими проводами и запустит двигатель за пару минут.
+        </p>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>&copy; 2026 Служба техпомощи на дорогах «АвтоПомощь Астана».</p>
+        <p style="margin-top: 10px; font-size: 12px; color: #777;">Контакты: <a href="tel:+77760742322" style="color: var(--main-color); text-decoration: none;">+7 (776) 074-23-22</a></p>
